@@ -18,3 +18,15 @@ npm install
 ```
 npm run dev
 ```
+
+**cd frontend**
+
+```
+npm install
+```
+
+**run backend**
+
+```
+npm start
+```
