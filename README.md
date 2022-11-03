@@ -7,6 +7,14 @@
 **HAVE FUN 👌**
 **Thanks, Abdelrahman Atef**
 
+**cd backend**
+
 ```
 npm install
+```
+
+**run backend**
+
+```
+npm run dev
 ```
