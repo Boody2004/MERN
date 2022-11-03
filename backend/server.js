@@ -1,8 +1,11 @@
-require("dotenv").config();
-
+const dotenv = require("dotenv");
 const express = require("express");
 const mongoose = require("mongoose");
+const logging = require("./middleware/logging");
 const workoutRouts = require("./routes/workouts");
+
+// dotenv configuration
+dotenv.config();
 
 // express app
 const app = express();
@@ -10,10 +13,7 @@ const app = express();
 // middleware
 app.use(express.json());
 
-app.use((req, res, next) => {
-  console.log(req.path, req.method);
-  next();
-});
+app.use(logging);
 
 // routes
 app.use("/api/workouts", workoutRouts);
