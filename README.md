@@ -7,7 +7,14 @@
 **HAVE FUN 👌**
 **Thanks, Abdelrahman Atef**
 
-**cd backend**
+**in backend folder**
+
+> create file .env
+
+```
+PORT=test123
+MONGO_URI="test123"
+```
 
 ```
 npm install
@@ -19,13 +26,23 @@ npm install
 npm run dev
 ```
 
-**cd frontend**
+**in frontend folder**
+
+> package.json
+
+```
+"proxy": "http://localhost:BACKEND_PORT"
+```
+
+```
+npm i date-fns
+```
 
 ```
 npm install
 ```
 
-**run backend**
+**run frontend**
 
 ```
 npm start
