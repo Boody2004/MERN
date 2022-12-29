@@ -2,7 +2,7 @@
 
 ## go to website [MERN]()
 
-<b>coded by [LAUNCHY]](www.launchy.com)</b>
+<b>coded by [Launchy](https://linklaunchy.vercel.app/launchy) 👌</b>
 
 **HAVE FUN 👌**
 **Thanks, Abdelrahman Atef**
