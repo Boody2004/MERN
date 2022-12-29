@@ -1,11 +1,8 @@
 # MERN
 
-## go to website [MERN]()
-
-<b>coded by [Launchy](https://linklaunchy.vercel.app/launchy) 👌</b>
+<b>coded by [Abdelrahman Atef](https://linklaunchy.vercel.app/boody_04)</b>
 
 **HAVE FUN 👌**
-**Thanks, Abdelrahman Atef**
 
 **in backend folder**
 
